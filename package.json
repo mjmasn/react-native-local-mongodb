@@ -1,6 +1,6 @@
 {
   "name": "react-native-local-mongodb",
-  "version": "2.2.2",
+  "version": "2.2.5",
   "author": "Antonio Presto <antoniopresto@gmail.com>",
   "contributors": [
     "Antonio Presto"
@@ -33,8 +33,7 @@
   "devDependencies": {
     "chai": "3.2.0",
     "jest": "22.3.0",
-    "mocha": "1.4.x",
-    "request": "2.9.x",
+    "mocha": "^5.2.0",
     "sinon": "1.3.x"
   },
   "scripts": {
@@ -44,7 +43,8 @@
   "jest": {
     "moduleNameMapper": {
       "react-native": "<rootDir>/config/jest/reactNativeMock.js"
-    }
+    },
+    "testEnvironment": "node"
   },
   "main": "index",
   "license": "SEE LICENSE IN LICENSE",
