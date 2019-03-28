@@ -1,5 +1,5 @@
 {
-  "name": "react-native-local-mongodb",
+  "name": "@opengenius/react-native-local-mongodb",
   "version": "2.2.5",
   "author": "Antonio Presto <antoniopresto@gmail.com>",
   "contributors": [
